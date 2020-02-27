@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_account">Account</string>
+    <string name="message_invalid_field">Invalid Field</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_legends">Legends:</string>
+</resources>
