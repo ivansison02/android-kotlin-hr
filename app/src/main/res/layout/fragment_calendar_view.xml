@@ -10,23 +10,28 @@
         android:id="@+id/lbl_legend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
-        android:text="@string/txt_legends"/>
+        android:text="@string/txt_legends"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTxtTitle"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_home"
+        android:id="@+id/rv_legends"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        tools:itemCount="3"
+        tools:listitem="@layout/layout_legend_item"/>
 
     <CalendarView
         android:id="@+id/cal_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
 </LinearLayout>

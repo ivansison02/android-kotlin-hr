@@ -17,6 +17,4 @@ class ListViewFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_list_view, container, false)
     }
-
-
 }

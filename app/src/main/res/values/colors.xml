@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#12151E</color>
-    <color name="colorPrimaryDark">#12151E</color>
-    <color name="colorAccent">#AD1313</color>
-    <color name="colorAccentDark">#9A2121</color>
+    <color name="colorPrimaryDark">#0C1019</color>
+    <color name="colorAccent">#B81111</color>
+    <color name="colorAccentDark">#972323</color>
     <color name="colorSplash">#972323</color>
+
+    <color name="colorApplicationVacation">#FF5C00</color>
+    <color name="colorApplicationOvertime">#C23E3E</color>
+    <color name="colorApplicationSick">#7000FF</color>
+    <color name="colorApplicationReimbursement">#0094FF</color>
+    <color name="colorApplicationOutOfOffice">#24227C</color>
+
+    <color name="colorTxtTitle">#434040</color>
 </resources>

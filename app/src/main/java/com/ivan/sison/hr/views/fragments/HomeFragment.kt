@@ -2,6 +2,7 @@ package com.ivan.sison.hr.views.fragments
 
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import android.widget.Spinner
 
 import com.ivan.sison.hr.R
 import com.ivan.sison.hr.models.ApplicationType
+import com.ivan.sison.hr.utils.ConstantUtil
 import com.ivan.sison.hr.utils.DummyUtil
 import com.ivan.sison.hr.utils.NavigateUtil
 
@@ -47,8 +49,7 @@ class HomeFragment : Fragment() {
         }
 
         val spinner: Spinner = root.findViewById(R.id.spn_application)
-        val adapter = ArrayAdapter(activity!!.applicationContext, android.R.layout.simple_spinner_item, applicationTypes)
-        spinner.adapter = adapter
+        spinner.adapter = ArrayAdapter(activity!!.applicationContext, R.layout.layout_spn, applicationTypes)
 
         spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
